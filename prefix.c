@@ -171,6 +171,24 @@ https://github.com/namecoin/namecoin-core/blob/09bdf373fb3cefa9faf868f1c415e0498
 		.public_key_prefix       = 111,
 		.script_prefix           = 196,
 		.private_key_prefix      = 111+128
+	},
+/*
+Fermat IoP Coin:
+public keys / script / private keys:
+https://github.com/Fermat-ORG/iop-token/blob/beta/src/chainparams.cpp#L139
+https://github.com/Fermat-ORG/iop-token/blob/beta/src/chainparams.cpp#L229
+*/
+	{
+		.name                    = "iop",
+		.public_key_prefix       = 117,
+		.script_prefix           = 174,
+		.private_key_prefix      = 49
+	},
+	{
+		.name                    = "iop-testnet",
+		.public_key_prefix       = 130,
+		.script_prefix           = 49,
+		.private_key_prefix      = 76
 	}
 };
 
